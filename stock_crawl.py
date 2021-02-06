@@ -5,7 +5,7 @@ from utils import pdate2date, save
 URLcafef = "https://cafef.vn"
 URL = 'https://cafef.vn/timeline/31/trang-1.chn'
 
-for i in range(1913, 2000):
+for i in range(2000, 4001):
     print(i, "--------------------------")
     URL = 'https://cafef.vn/timeline/31/trang-' + str(i) +'.chn'
     page = requests.get(URL)

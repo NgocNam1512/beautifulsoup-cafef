@@ -1,2 +1,4 @@
 /env
 /crawl-data
+/stock-data
+*.zip
